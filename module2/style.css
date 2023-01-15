@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: Helvetica;
+}
+h1 {
+  text-align:center; 
+  font-size: 175%;
+  padding: 30px;
+  font-weight: bold;
+}
+
+h2 {
+  padding : 5px;
+  margin : 0;
+  font-size: 125%;
+  text-align:center; 
+  
+  border: 1px solid black;
+ font-weight:  bold;
+ float:right;
+}
+
+#Chicken{
+background-color: #F08080;
+}
+
+#Beef{
+	color:white;
+	background-color: #DC143C;
+}
+
+#Sushi{
+	background-color: yellow;
+}
+
+.Menu{
+	width: 100%
+	
+}
+
+p {
+padding : 5px;
+margin: 5px;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  float : left;
+}
+
+h2 {
+	float :right ;
+	width : 150px ;
+}
+
+@media (min-width: 992px){
+	.desktop, .tablet, .phone {
+		border: 1px solid black;
+		background-color: grey;
+		float : left ;
+		margin:1.3%;
+	
+	
+	}
+	.desktop{
+		width : 30%;
+		
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+.desktop, .tablet, .phone, .table {
+		border: 1px solid black;
+		background-color: grey;
+		float : left ;
+		margin:1%
+	}
+ .tablet{
+    width : 48%;
+	}
+  .table{
+	width: 98%
+	margin:2%
+	}
+}
+
+@media (max-width: 767px) {
+  .desktop, .tablet, .phone {
+		border: 1px solid black;
+		background-color: grey;
+		float : left ;
+		margin : 2%;
+	}
+ .phone{
+ 	width: 98%
+ 	margin : 2%;
+  }
+
